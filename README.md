@@ -3,7 +3,8 @@
 Uma aplicação de página única (SPA) moderna, interativa e responsiva para navegar e pesquisar informações sobre diversas tecnologias de desenvolvimento web.
 
 ![Screenshot of the project]
-*(Sugestão: Tire um print da sua aplicação e substitua este texto pela imagem. Ex: `![Screenshot](screenshot.png)`)*
+*(Sugestão: Tire um print da sua aplicação e substitua este texto pela imagem. Ex: `![Screenshot](image.png
+)`)*
 
 ---
 
