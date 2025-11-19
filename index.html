@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de conhecimento</title>
+</head>
+<body>
+    <header>
+        <h1>Base de conhecimento</h1>
+        <div class="header-controls">
+            <div class="sort-container">
+                <select id="sort-select" title="Ordenar por">
+                    <option value="default">Ordenar por...</option>
+                    <option value="name-asc">Nome (A-Z)</option>
+                    <option value="name-desc">Nome (Z-A)</option>
+                    <option value="year-desc">Ano (Mais Recente)</option>
+                    <option value="year-asc">Ano (Mais Antigo)</option>
+                </select>
+            </div>
+            <div class="search-container">
+                <input type="text" id="caixa-busca" placeholder="Digite uma linguagem de programação">
+                <button id="botao-busca">Buscar</button>
+            </div>
+            <button id="theme-switcher-btn" title="Alternar tema">🌙</button>
+        </div>
+    </header>
+
+        <main>
+
+            <section id="articles-container"></section>
+
+            <div id="load-more-container" class="load-more-container">
+
+                <button id="load-more-btn">Carregar Mais</button>
+
+            </div>
+
+        </main>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://github.com/alanbazilik?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/alangoncalvesbazilio/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+             <li>
+                <a href="https://alanbazilik-portflio.netlify.app/" target="_blank" rel="noopener noreferrer">Portfólio</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+    {
+        "Nome": "JavaScript",
+        "Descricao": "Linguagem de programação que permite implementar itens complexos em páginas web.",
+        "Ano": 1995,
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "Nome": "HTML",
+        "Descricao": "Linguagem de Marcação de Hipertexto para estruturar páginas web e seus conteúdos.",
+        "Ano": 1993,
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+    },
+    {
+        "Nome": "CSS",
+        "Descricao": "Folhas de Estilo em Cascata, uma linguagem para descrever a apresentação de um documento escrito em HTML.",
+        "Ano": 1996,
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+    },
+    {
+        "Nome": "Python",
+        "Descricao": "Linguagem de programação de alto nível, famosa por sua simplicidade e legibilidade de código.",
+        "Ano": 1991,
+        "link": "https://www.python.org/"
+    },
+    {
+        "Nome": "React",
+        "Descricao": "Uma biblioteca JavaScript para construir interfaces de usuário, mantida pelo Facebook.",
+        "Ano": 2013,
+        "link": "https://react.dev/"
+    },
+    {
+        "Nome": "Vue.js",
+        "Descricao": "Um framework progressivo para a construção de interfaces de usuário, focado na simplicidade e flexibilidade.",
+        "Ano": 2014,
+        "link": "https://vuejs.org/"
+    },
+    {
+        "Nome": "Angular",
+        "Descricao": "Plataforma de desenvolvimento baseada em TypeScript, construída e mantida pelo Google.",
+        "Ano": 2016,
+        "link": "https://angular.io/"
+    },
+    {
+        "Nome": "TypeScript",
+        "Descricao": "Um superconjunto de JavaScript que adiciona tipagem estática opcional à linguagem.",
+        "Ano": 2012,
+        "link": "https://www.typescriptlang.org/"
+    },
+    {
+        "Nome": "Sass",
+        "Descricao": "Uma linguagem de extensão CSS que adiciona superpoderes como variáveis, aninhamento e mixins.",
+        "Ano": 2006,
+        "link": "https://sass-lang.com/"
+    }
+]
