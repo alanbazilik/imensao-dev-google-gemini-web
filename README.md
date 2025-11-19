@@ -2,9 +2,13 @@
 
 Uma aplicação de página única (SPA) moderna, interativa e responsiva para navegar e pesquisar informações sobre diversas tecnologias de desenvolvimento web.
 
-![Screenshot of the project]
-*(Sugestão: Tire um print da sua aplicação e substitua este texto pela imagem. Ex: `![Screenshot](image.png
-)`)*
+## 🖼️ Screenshot
+
+![Demonstração da Aplicação](image.png)
+
+## 🎥 Vídeo de Demonstração
+
+[Clique aqui para ver um vídeo de demonstração do projeto](20251119-1400-09.7408446.mp4)
 
 ---
 
