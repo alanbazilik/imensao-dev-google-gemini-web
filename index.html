@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma base de conhecimento interativa sobre linguagens de programação e frameworks.">
+    <meta name="author" content="Alan Bazilio">
+    <meta property="og:title" content="Base de Conhecimento de Programação">
+    <meta property="og:description" content="Explore e aprenda sobre diversas linguagens de programação e frameworks.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💡</text></svg>">
     <link rel="stylesheet" href="style.css">
-    <title>Base de conhecimento</title>
+    <title>CodeMentor</title>
 </head>
 <body>
     <header>
-        <h1>Base de conhecimento</h1>
+        <h1>CodeMentor</h1>
+        
         <div class="header-controls">
             <div class="sort-container">
                 <select id="sort-select" title="Ordenar por">
@@ -23,12 +30,26 @@
                 <input type="text" id="caixa-busca" placeholder="Digite uma linguagem de programação">
                 <button id="botao-busca">Buscar</button>
             </div>
+            <div class="filter-controls">
+                <select id="category-filter" title="Filtrar por Categoria">
+                    <option value="all">Todas as Categorias</option>
+                </select>
+                <select id="tag-filter" title="Filtrar por Tag">
+                    <option value="all">Todas as Tags</option>
+                </select>
+            </div>
             <button id="theme-switcher-btn" title="Alternar tema">🌙</button>
         </div>
     </header>
 
         <main>
-
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/ia.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+              <h3 class="subtitle">Explore o universo das linguagens de programação e tecnologias.</h3>
             <section id="articles-container"></section>
 
             <div id="load-more-container" class="load-more-container">
@@ -54,5 +75,6 @@
     </footer>
 
     <script src="script.js"></script>
+    <button id="back-to-top-btn" title="Voltar ao topo">⬆️</button>
 </body>
 </html>
